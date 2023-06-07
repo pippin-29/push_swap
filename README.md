@@ -25,6 +25,10 @@ for resorting.
 
 Radix sort has been adapted to binary, proving useful, as we only have two bins, not ten.
 
+The numbers that are input must be converted to positive intgers...
+
+So  -5, 2, -6, 0, 1  Becomes 1, 4, 0, 2, 3 
+
 
 Overall, i completed the project in much less time than anticipated...
 
