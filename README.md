@@ -6,7 +6,7 @@ Designed for my 42 Cursus.
 
 Will sort 5 numbers in less than 12 operations.
 
-Will sort 100 numbers in about 467 operations.
+Will sort 100 numbers in about 1050 operations.
 
 Will sort 500 numbers in about 6700 operations.
 
