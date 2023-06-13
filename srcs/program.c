@@ -6,7 +6,7 @@
 /*   By: dhadding <daniel42.c@engineer.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 06:11:02 by dhadding          #+#    #+#             */
-/*   Updated: 2023/06/08 03:56:05 by dhadding         ###   ########.fr       */
+/*   Updated: 2023/06/09 12:51:53 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,11 +53,16 @@ void	sort_big_stack(t_stack *stack_a, t_stack *stack_b)
 
 void	sort(t_stack *stack_a, t_stack *stack_b)
 {
-	if (stack_a->size <= 5)
-		sort_small_stack(stack_a, stack_b);
-	else
+	if (!check_sort(stack_a))
 	{
-		transform_a(stack_a);
-		sort_big_stack(stack_a, stack_b);
+		if (stack_a->size <= 5)
+			sort_small_stack(stack_a, stack_b);
+		else
+		{
+			transform_a(stack_a);
+			sort_big_stack(stack_a, stack_b);
+		}
 	}
+	else
+		exit(0);
 }
