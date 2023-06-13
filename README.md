@@ -1,6 +1,6 @@
 # push_swap
 
-Designed for my 42 Cursus.
+Designed for the 42 Cursus.
 
 0 Leaks.
 
