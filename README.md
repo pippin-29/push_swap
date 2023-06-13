@@ -34,10 +34,6 @@ Overall, i completed the project in much less time than anticipated...
 
 And learned alot about malloc(), realloc(), calloc(), and free().
 
-Because i used two arrays of integers for stack_a and stack_b, my sorting algorithm has decreased time complexity,
-
-Unlike some complicated doubly linked lists, with many values within each node.
-
 The hardest part of this project was the push_a() and push_b() functions...
 
 Which took some time understanding exactly how to resize an array of integers,
