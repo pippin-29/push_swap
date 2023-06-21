@@ -19,10 +19,6 @@ then called sort_4 and pushed back to A.
 
 Radix sort seems to be a common solution for beyond 5 numbers. It will not get you full marks,
 
-For 500 numbers you will lose 500 or less operations just returning all the numbers to stack_a,
-
-for resorting.
-
 Radix sort has been adapted to binary, proving useful, as we only have two bins, not ten.
 
 The numbers that are input must be converted to positive intgers...
