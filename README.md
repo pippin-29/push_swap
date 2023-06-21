@@ -11,7 +11,7 @@ Will sort 100 numbers in about 1050 operations.
 Will sort 500 numbers in about 6700 operations.
 
 
-Nested if-else statements used to complete sorting 2, 3, 4, 5 numbers.
+Nested if-else statements used to complete sorting 3-4 numbers.
 
 For 5 numbers i checked where the index of the minimum int was and moved to the top and pushed to B,
 
